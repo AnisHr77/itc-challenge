@@ -134,7 +134,7 @@ const Header = () => {
                 <div className={`${RIGHT_PANEL_WIDTH} flex items-center justify-between px-8 space-x-6 max-lg:hidden`}>
                     <div className="text-gray-700 font-medium text-xs flex gap-3">
                         <div className='flex gap-1'>
-                            <a href="profile" className='flex gap-1' title={'Profile'}>
+                            <a href="./profile" className='flex gap-1' title={'Profile'}>
                                 <img className='h-6 w-6 rounded-full object-cover object-[top_80%_left_50%]' src={Anis} alt="Anis" />
                                 <span className='text-xs relative top-1' >Hadj Ramdane Anis</span>
                             </a>
