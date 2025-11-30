@@ -30,7 +30,7 @@ function App() {
 
             <Routes>
                 <Route
-                    path="/home"
+                    path="home"
                     element={
                         <Home
                             topPanel={<UserProfileCompact />}
@@ -54,7 +54,7 @@ function App() {
                 />
 
                 <Route
-                    path="/"
+                    path=""
                     element={
                         <Home
                             topPanel={<UserProfileCompact />}
@@ -77,7 +77,7 @@ function App() {
                     }
                 />
                 <Route
-                    path="/events"
+                    path="events"
                     element={
                         <Home
                             topPanel={<ProfileCompactEvent />}
@@ -114,7 +114,7 @@ function App() {
                     }
                 />
 
-                <Route path="/teams" element={ <Home
+                <Route path="teams" element={ <Home
                     topPanel={<UserProfileCompact />}
                     bottomPanel={
                         <>
@@ -130,7 +130,7 @@ function App() {
                         </>
                     }
                 ><TeamsPage /></Home>} />
-                <Route path="/profile" element={ <Home
+                <Route path="profile" element={ <Home
 
                     bottomPanel={
                         <>
@@ -148,7 +148,7 @@ function App() {
                 ><ProfilePage /></Home>} />
 
 
-                <Route path="/manage-team" element={<Home
+                <Route path="manage-team" element={<Home
                     topPanel={<ProfileCompactEvent />}
                     bottomPanel={
                         <>
@@ -184,7 +184,7 @@ function App() {
                         </>
                     }
                 ><ManageTeam /></Home>} />
-                <Route path="/manage-events" element={<Home
+                <Route path="manage-events" element={<Home
                     topPanel={<ProfileCompactEvent />}
                     bottomPanel={
                         <>
@@ -213,7 +213,7 @@ function App() {
                         </>
                     }
                 ><ManageEvents /></Home>} />
-                <Route path="/manage-reports" element={<Home
+                <Route path="manage-reports" element={<Home
                     topPanel={<ProfileCompactEvent />}
                     bottomPanel={
                         <>
@@ -248,7 +248,7 @@ function App() {
                         </>
                     }
                 ><ManageReports /></Home>} />
-                <Route path="/manage-content" element={
+                <Route path="manage-content" element={
                     <Home
                     topPanel={<ProfileCompactEvent />}
                     bottomPanel={
