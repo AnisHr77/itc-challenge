@@ -98,7 +98,7 @@ function App() {
                                 <>
                                     <ProfileCompactEvent />
                                     <ProgressEvent progress={80} color={"rgb(255, 209, 171)"} />
-                                    <AttendanceChart barColor="rgb(255, 209, 171)" />
+                                    <AttendanceChart title={'Attendance Rate'} barColor="rgb(255, 209, 171)" />
                                     <Action data={[{
                                         label: "Add Event",
                                         icon: "FiPlus",

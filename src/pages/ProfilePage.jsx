@@ -38,7 +38,7 @@ const ProfilePage = () => {
 
     return (
         <div className="min-h-screen  ">
-            <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-sm   overflow-hidden">
+            <div className="  p-8 border border-neutral-200 shadow-sm  bg-gray-50 overflow-hidden">
                 <UserProfileCompact
                     banner={Banner}
                     avatar={Anis}
@@ -50,7 +50,6 @@ const ProfilePage = () => {
                     verified={true}
                 />
 
-                {/* Bio Section */}
                 <div className="px-8 py-6 border-b border-gray-100">
                     <h3 className="text-lg font-semibold text-gray-900 mb-3">About</h3>
                     <p className="text-gray-600 leading-relaxed text-sm">
@@ -60,7 +59,6 @@ const ProfilePage = () => {
                     </p>
                 </div>
 
-                {/* Social Links Section */}
                 <div className="px-8 py-6">
                     <h3 className="text-lg font-semibold text-gray-900 mb-4">Connect with me</h3>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -87,7 +85,6 @@ const ProfilePage = () => {
                     </div>
                 </div>
 
-                {/* Skills & Interests */}
                 <div className="px-8 py-6 bg-gray-50 border-t border-gray-100">
                     <h3 className="text-lg font-semibold text-gray-900 mb-4">Skills & Interests</h3>
                     <div className="flex flex-wrap gap-2">
@@ -106,7 +103,6 @@ const ProfilePage = () => {
                     </div>
                 </div>
 
-                {/* Footer */}
                 <div className="px-8 py-4 bg-gray-50 border-t border-gray-100">
                     <p className="text-xs text-gray-500 text-center">
                         Always learning, always building • Open to collaborations and new opportunities
