@@ -256,7 +256,7 @@ function App() {
                             <ProgressEvent progress={80} color={"#e1c9ff"} />
                             <AttendanceChart
 
-                                barColor="#faf6ff"
+                                barColor="#e1c9ff"
                             />
                             <Action data={[{
                                 label: "Add Content",
