@@ -6,7 +6,7 @@ export default function DataTable({
                                       headerBg = "#F9FAFB",
                                   }) {
     return (
-        <div className="mt-8 w-full overflow-x-auto bg-white rounded-lg">
+        <div className="mt-4 w-full overflow-x-auto bg-white rounded-lg">
             <div className="min-w-[800px]">
                 <table className="w-full text-sm font-sans">
                     <thead style={{ backgroundColor: headerBg }}>
